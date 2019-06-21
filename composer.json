@@ -1,0 +1,33 @@
+{
+  "name": "chomenko/route-listener",
+  "type": "extension",
+  "description": "Router listener from Nette framework",
+  "keywords": ["route", "listener", "nette"],
+  "homepage": "https://github.com/chomenko/route-listener",
+  "license": [],
+  "authors": [
+    {
+      "name": "Mykola Chomenko",
+      "homepage": "http://dipcom.cz",
+      "email": "mykola.chomenko@dipcom.cz"
+    }
+  ],
+  "support": {
+    "email": "mykola.chomenko@dipcom.cz"
+  },
+  "config": {
+    "fxp-asset": {
+      "enabled": true
+    }
+  },
+  "require": {
+    "php": ">=7.2",
+    "nette/di": "^2.4",
+    "kdyby/events": "^3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Chomenko\\RouteListener\\": "src/"
+    }
+  }
+}
